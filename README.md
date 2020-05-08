@@ -1,1 +1,1 @@
-# NodeMailer-Service
+# Mailer-service
