@@ -1,0 +1,29 @@
+{
+  "name": "mailer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app",
+    "start": "node src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snc0lt/mailer-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snc0lt/mailer-service/issues"
+  },
+  "homepage": "https://github.com/snc0lt/mailer-service#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "googleapis": "^50.0.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3"
+  }
+}
